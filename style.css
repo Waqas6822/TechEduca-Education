@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(images/back.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.main .navbar{
+    position: fixed;
+    padding: 15px;
+    width: 100%;
+    height: 80px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .navlist{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+.navlist .navlink{
+    text-decoration: none;
+    color: #344c64;
+    font-size: 22px;
+    padding: 15px;
+    transition: .5s ;
+}
+.navlist .navlink:hover{
+    color: #f9ca24;
+}
+.navbar .btn{
+    font-size: 20px;
+    padding: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.navbar .btn:hover{
+    background-color: #f9ca24;
+}
+.main .text{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+.text h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.text p{
+    color: white;
+    font-size: 20px;
+}
+.text button{
+    background: transparent;
+    font-size: 25px;
+    margin-top: 10px;
+    transition: .5s;
+}
+.text .learn{
+    background-color: #344c64;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.text .view{
+    background-color: #f9ca24;
+    color: white;
+    padding: 10px 17px;
+    border-radius: 10px;
+}
+.text .learn:hover{
+    background-color: white;
+    color: #344c64;
+}
+.text .view:hover{
+    background-color: white;
+    color: #344c64;
+}
+.main2{
+    align-items: center;
+    padding-top: 50px;
+    text-align: center;
+}
+.main2 h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.main2 p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.main2 .carts{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.main2 .carts .cart{
+    border: 1px solid rgb(230, 225, 225);
+    background-color: rgb(230, 225, 225);
+    border-radius: 15px;
+    padding: 15px;
+}
+.carts .cart .icon{
+    font-size: 45px;
+}
+.main2 .carts .cart:hover{
+    box-shadow: 10px 4px 42px 10px rgb(148, 141, 141);
+}
+.main3{
+    align-items: center;
+    padding-top: 50px;
+    text-align: center;
+}
+.main3 h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.main3 p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.main3 .carts2{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.main3 .carts2 .cart2:hover{
+    box-shadow: 5px 4px 10px rgb(226, 212, 212);
+}
+.carts2 .cart2 img{
+    width: 350px;
+    height: 200px;
+}
+.carts2 .cart2 .carttext{
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: start;
+    box-shadow: 1px 3px 7px rgb(187, 172, 172);
+
+}
+.main4{
+    margin-top:50px;
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(images/signup.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 130px;
+}
+.main4 .form{
+    padding: 10px;
+    background-color: white;
+    height: 380px;
+    border-radius: 15px;
+}
+.main4 .form input{
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid black;
+
+}
+.main4 .form button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #f9ca24;
+}
+.main4 .form button:hover{
+    background: transparent;
+    
+}
+.main4 .tex p{
+    color: white;
+    font-size: 15px;
+}
+.main4 .tex h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.main4 .tex button{
+    font-size: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: black;
+    border: 1px solid black;
+    background: transparent linear-gradient(rgba(248, 251, 249, 0.4),rgba(248, 251, 249, 0.4));
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.main5{
+    align-items: center;
+    padding-top: 50px;
+    text-align: center;
+}
+.main5 h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.main5 p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.main5 .carts3{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.main5 .carts3 .cart3{
+    cursor: pointer;
+    padding: 30px;
+    box-shadow: 10px 4px 42px 10px rgb(245, 235, 235);
+    
+}
+.main5 .carts3 .cart3:hover{
+    box-shadow: 10px 4px 42px 10px rgb(148, 141, 141);
+}
+.main5 .carts3 .cart3 .i{
+    font-size: 25px;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 5px;
+}
+.main5 .carts3 .cart3 .i:hover{
+    background: #344c64;
+    color: white;
+}
+.main6{
+    padding-top: 30px;
+}
+    
+.main6 .footer{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #344c64;
+    align-items: center;
+    text-align: center;
+}
+.main6 .footer h3{
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 300px;
+    color: white;
+}
+.main6 .footer input{
+    color: white;
+    background: transparent;
+    border-color: white;
+    font-size: 27px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.main6 .footer button{
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 10px;
+    background: #f9ca24;
+    color: white;
+}
+.main6 .footer button:hover{
+    background: transparent;
+}
+/* about */
+.about{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(images/back1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.aboutimg{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.aboutimg img{
+    height: 450px;
+    padding-right: 100px;
+}
+.aboutimg .abouttex h1{
+    padding-top: 60px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.aboutimg .abouttex p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.abouttex .teximg .texcart{
+    padding: 20px;
+    display: flex;
+}
+.abouttex .teximg img{
+    width: 170px;
+    height: 70px;
+}
+.abouttex .teximg .texcart h1{
+    font-size: 20px;
+}
+.abouttex .teximg .texcart p{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: -105px;
+}
+.trust{
+    align-items: center;
+    padding-top: 50px;
+    text-align: center;
+}
+.trust h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.trust p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.trust .trustimg{
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.trust .trustimg img{
+    width: 100px;
+}
+.blog{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    padding-bottom: 0;
+    text-align: center;
+    justify-content: space-between;
+}
+.blog .blogimg img{
+    width: 600px;
+    border-radius: 15px;
+}
+.blog .blogtext{
+    margin-right: 200px;
+    padding: 20px;
+    text-align: start;
+}
+.blog .blogtext h1{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.blog .blogtext p{
+    padding: 16px;
+    font-size: 20px;
+}
+.web{
+    padding-left: 50px;
+}
+.web h1{
+    font-size: 35px;
+}
+.web p{
+    font-size: 20px;
+}
+.web button{
+    background: #344c64;
+    color: white;
+    padding: 10px 15px;
+    border-color: #344c64;
+
+}
+.web button:hover{
+    background: transparent;
+    color: #344c64;
+}
+.web img{
+    width: 600px;
+    border-radius: 15px;
+    padding-top: 10px;   
+}
+.contact{
+    margin: 200px;
+    padding: 70px;
+    background-color: aliceblue;
+    align-items: center;
+}
+.contact input{
+    margin: 20px;
+    font-size: 15px;
+    padding: 10px;
+    width: 500px;
+    height: 50px;
+}
+.contact textarea{
+    margin: 20px;
+    align-items: center;
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+}
+.contact button{
+    margin-left: 20px;
+    background: #344c64;
+    color: white;
+    padding: 10px 230px;
+    border-color: #344c64;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.contact button:hover{
+    background: transparent;
+    color: #344c64;
+}
